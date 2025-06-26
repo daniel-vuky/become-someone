@@ -1,11 +1,11 @@
-What is it?
+**1. What is it?**
 - Creating active connections with a target system
 - Performing directed queries
 - Identify points for a system attack
 - Perform password attacks
 - Intranet environment
 
-Information enumerated by us:
+**2. Information enumerated by us:**
 - Network resources
 - Network shares
 - Routing Tables
@@ -14,3 +14,8 @@ Information enumerated by us:
 - Machine names
 - Users and groups
 - Applications and banners
+
+**3. Techniques**
+3.1 NetBIOS Enumeration
+- Nmap (Kali)
+- bststat -a <IP> (WINDOW)
