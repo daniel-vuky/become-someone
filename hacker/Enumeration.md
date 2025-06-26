@@ -10,7 +10,7 @@ Information enumerated by us:
 - Network shares
 - Routing Tables
 - Audit & service settings
-- SNMP & FQDN details
+- [SNMP](https://www.fortra.com/resources/articles/snmp-basics-what-it-and-how-it-works) & [FQDN](https://www.f5.com/glossary/fqdn) details
 - Machine names
 - Users and groups
 - Applications and banners
