@@ -17,5 +17,8 @@
 
 **3. Techniques**
 3.1 NetBIOS Enumeration
-- Nmap (Kali)
-- bststat -a <IP> (WINDOW)
+* Nmap (Kali)
+* nbtstat (WINDOW)
+  ```
+  nbtstat -a <IP>
+  ```
