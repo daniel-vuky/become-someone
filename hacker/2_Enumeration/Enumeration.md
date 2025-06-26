@@ -18,7 +18,13 @@
 **3. Techniques**
 3.1 NetBIOS Enumeration
 * Nmap (Kali)
+  Using nmap script, scan LAN only
+  ```
+  nmap --script=nbstat -Pn <IP>
+  ```
 * nbtstat (WINDOW)
+  Scan LAN only
   ```
   nbtstat -a <IP>
   ```
+3.2 Net view
