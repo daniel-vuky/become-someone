@@ -9,5 +9,5 @@ Trace DNS history:
 Script Database:
 1. [ExpoitDatabase](https://exploit-db.com)
 
-Collect Device Information
+Collect Device(IP,OS,Version...) Information
 1. [Shodan](https://shodan.io)
