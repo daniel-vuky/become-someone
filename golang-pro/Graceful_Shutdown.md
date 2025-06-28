@@ -1,11 +1,11 @@
 **Start server in a go routine**
 ```
 go func() {
-		fmt.Println("Starting server on port", port)
-		if err := server.ListenAndServe(); err != nil && err != http.ErrServerClosed {
-			log.Fatalf("Failed to start server: %v", err)
-		}
-	}()
+	fmt.Println("Starting server on port", port)
+	if err := server.ListenAndServe(); err != nil && err != http.ErrServerClosed {
+		log.Fatalf("Failed to start server: %v", err)
+	}
+}()
 ```
 
 **Register a channel to hear the OS signal**
