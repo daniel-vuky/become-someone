@@ -14,6 +14,6 @@ python2 Responder.py -I eth0
 
 Check and crack the hashed password
 ```
-john hash --wordlist=/.../rock.. --format=netntlmv2
+john <hash> --wordlist=/.../rock.. --format=netntlmv2
 ```
 => Crack the hashed password collected from Responder
