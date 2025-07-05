@@ -1,4 +1,4 @@
-**1. Responder (LAN only)**
+**1. Responder**
 
 Github: https://github.com/SpiderLabs/Responder
 Attack and exploit insecure name resolution protocols in the LAN:
