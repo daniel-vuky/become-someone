@@ -17,3 +17,8 @@ Check and crack the hashed password
 john <hash> --wordlist=/.../rock.. --format=netntlmv2
 ```
 => Crack the hashed password collected from Responder
+
+**3. Check hash format**
+```
+hash-identifier <hash>
+```
